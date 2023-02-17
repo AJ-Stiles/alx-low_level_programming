@@ -3,18 +3,17 @@
 #include <time.h>
 
 /**
- *  * main - Entry
- *   * Return: Always 0
+ * main - Entry
+ * Return: Always 0
  */
 int main(void)
 {
-		int ch;
+	int ch;
 
-			for (ch = 'a'; ch <= 'z'; ch++)
-						putchar(ch);
-				for (ch = 'A'; ch <= 'Z'; ch++)
-							putchar(ch);
-					putchar('\n');
-						return (0);
+	for (ch = 'a'; ch <= 'z'; ch++)
+		putchar(ch);
+	for (ch = 'A'; ch <= 'Z'; ch++)
+		putchar(ch);
+	putchar('\n');
+	return (0);
 }
-
